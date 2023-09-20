@@ -1,0 +1,4 @@
+This file contains data to copy to stdout by the main program.
+
+
+This is the end of the file.

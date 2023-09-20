@@ -1,6 +1,13 @@
+// Program to copy stdin to stdout
+
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+
+  int c;
+
+  while ((c = getchar()) != EOF) 
+    putchar(c);
+  
   return 0;
 }
